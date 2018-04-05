@@ -1,3 +1,4 @@
 ﻿  LeagueTesting.cpp
-c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\cfootballleague.cpp(80): warning C4018: '>': signed/unsigned mismatch
+c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\cfootballleague.cpp(88): warning C4018: '>': signed/unsigned mismatch
+     Creating library C:\Users\Marky\OneDrive\Documents\Individual-Project-Semester-2-2018\Project\Debug\UnitTesting.lib and object C:\Users\Marky\OneDrive\Documents\Individual-Project-Semester-2-2018\Project\Debug\UnitTesting.exp
   UnitTesting.vcxproj -> C:\Users\Marky\OneDrive\Documents\Individual-Project-Semester-2-2018\Project\Debug\UnitTesting.dll

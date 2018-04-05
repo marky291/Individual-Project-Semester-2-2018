@@ -28,6 +28,9 @@ bool CFootballLeague::RecordScore(string teamname, int goalsFor, int goalsAgains
 	{
 		GetTeam(teamname).UpdateOnResult(goalsFor, goalsAgainst);
 
+		// Assign new league positions and sorting.
+		UpdateTeamPositions();
+
 		return true;
 	}
 
@@ -52,6 +55,11 @@ bool CFootballLeague::RemovePoints(string teamname, int points)
 CFootballTeam& CFootballLeague::GetTeam(int array_position)
 {
 	return m_Team[array_position];
+}
+
+void CFootballLeague::SetTeam(int position, CFootballTeam& team)
+{
+	m_Team[position] = team;
 }
 
 /*
@@ -117,9 +125,13 @@ void CFootballLeague::GetTeamsFacingRelegation(CFootballTeam relegationTeams[], 
  * Add a new team to the league.
  * New teams joining a league <https://en.wikipedia.org/wiki/Expansion_team>
  */
-bool CFootballLeague::Expand(CFootballTeam& team)
+bool CFootballLeague::Expand(CFootballTeam team)
 {
-	m_Team[m_TeamSize++] = team;
+	// Assign the team and update the size.
+	SetTeam(m_TeamSize++, team);
+
+	// Assign league position and sorting.
+	UpdateTeamPositions();
 
 	return true;
 }
@@ -139,3 +151,43 @@ void CFootballLeague::RemovePositionedTeam(const unsigned int position)
 	m_TeamSize--;
 }
 
+void CFootballLeague::UpdateTeamPositions()
+{
+	// Will false if a sort occurs.
+	bool sorted = true;
+	bool teams_adjusted = false;
+
+	// Only run when sets of two exist.
+	do
+	{
+		sorted = true;
+
+		for (int i = 0; (i + 1) < GetTeamSize(); i++)
+		{
+			if (GetTeam(i).IsLessThan(GetTeam(i + 1)))
+			{
+				CFootballTeam storage = GetTeam(i);
+
+				SetTeam(i, GetTeam(i + 1));
+
+				SetTeam(i + 1, storage);
+
+				// assign new positions.
+				teams_adjusted = true;
+
+				// we need to run for loop again.
+				sorted = false;
+			}
+		}
+	} while (!sorted);
+
+	// if teams were adjusted reassign positions.
+	if (teams_adjusted)
+	{
+		for (int i = 0; i < GetTeamSize(); i++)
+		{
+			// league positions start at 1 not 0.
+			GetTeam(i).SetLeaguePosition(i + 1);
+		}
+	}
+}

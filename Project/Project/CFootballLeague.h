@@ -48,13 +48,29 @@ class CFootballLeague
 		// Return the team from an array position.
 		CFootballTeam& GetTeam(int array_position);
 
+		// Return the team from an array position.
+		void SetTeam(int position, CFootballTeam& team);
+
 		// Add a new team to the league
 		// This will increment the league size and add a new value.
 		// @note: new teams joining a league <https://en.wikipedia.org/wiki/Expansion_team>
-		bool Expand(CFootballTeam& team);
+		bool Expand(CFootballTeam team);
 
 		// Remove a team from the league based on their array position number.
 		// Usefull for menu with text-based table display with number input.
 		void RemovePositionedTeam(const unsigned int position);
+
+		// Team sorting method based on points.
+		// Could be abstracted better, but this will do for the project.
+		void UpdateTeamPositions(void);
+
+		// Place a single team into the league, using the sorting
+		// algorithem, this is a more direct approach to a single
+		// object.
+		// void SortTeamIntoLeague(CFootballTeam& team);
+
+		// Update the teams position in the league.
+		// also referred to as a team position.
+		// void UpdateTeamLeaguePositions(void);
 };
 

@@ -91,7 +91,8 @@ namespace UnitTesting
 			// }
 
 			/*
-			* i) Greatest number of points			* ii) Greatest Goal difference if team points are equal
+			* i) Greatest number of points
+			* ii) Greatest Goal difference if team points are equal
 			* iii) Fewest Games played if both team points and Goal difference are equal
 			*/
 			TEST_METHOD(TeamComparisonBasedOnConditions)
@@ -204,6 +205,7 @@ namespace UnitTesting
 				CFootballLeague league;
 
 				unsigned int foundteams = 0;
+
 				CFootballTeam teams_lowest_conceeded_goals[25];
 
 				CFootballTeam team_one("American Bombers", 39, 29, 43, 36);
@@ -230,9 +232,44 @@ namespace UnitTesting
 				league.RecordScore("American Bombers", 3, 1);
 				league.RecordScore("New York Robots", 1, 3);
 
+				Assert::AreEqual(3, league.GetTeam(0).GetPoints());
 				Assert::AreEqual(3, league.GetTeam(0).GetGoalsFor());
 				Assert::AreEqual(1, league.GetTeam(0).GetGoalsAgainst());
+				Assert::AreEqual(2, league.GetTeam(0).GetGoalDifference());
+				Assert::AreEqual(1, league.GetTeam(0).GetGamesPlayed());
 			}
 
+			TEST_METHOD(LeagueCanSortTeamsInLeagueBasedOnPoints)
+			{
+				CFootballLeague league;
+			
+				CFootballTeam team_one("Alpha Tornadoes");
+				CFootballTeam team_two("Organized Confusion");
+				CFootballTeam team_three("The Mistletoe Wonderers");
+			
+				league.Expand(team_three);
+				league.Expand(team_one);
+				league.Expand(team_two);
+			
+				league.RecordScore("Alpha Tornadoes", 2, 4);
+				league.RecordScore("Organized Confusion", 4, 2);
+			
+				Assert::AreEqual(1, league.GetTeam(0).GetLeaguePosition());
+				Assert::AreEqual(3, league.GetTeam(0).GetPoints());
+
+				Assert::AreEqual(2, league.GetTeam(1).GetLeaguePosition());
+				Assert::AreEqual(0, league.GetTeam(1).GetPoints());
+			}
+
+			TEST_METHOD(LeagueCanNotAddTeamsWithSameName)
+			{
+				CFootballLeague league;
+
+				CFootballTeam team_one("American Spanners");
+				CFootballTeam team_two("American Spanners");
+
+				Assert::IsTrue(league.Expand(team_one));
+				Assert::IsFalse(league.Expand(team_two));
+			}
 	};
 }

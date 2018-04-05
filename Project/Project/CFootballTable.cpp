@@ -40,7 +40,7 @@ void CFootballTable::Footer(int resultCount)
 void CFootballTable::TeamStanding(CFootballTeam& team)
 {
 	std::cout << m_Indentation
-		<< setfill(' ') << setw(m_SpaceValue) << left << 0
+		<< setfill(' ') << setw(m_SpaceValue) << left << team.GetLeaguePosition()
 		<< setfill(' ') << setw(m_SpaceName) << left << team.GetName()
 		<< setfill(' ') << setw(m_SpaceValue) << right << team.GetGamesPlayed()
 		<< setfill(' ') << setw(m_SpaceValue) << right << team.GetGoalsFor()

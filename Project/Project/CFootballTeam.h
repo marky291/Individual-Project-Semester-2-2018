@@ -11,6 +11,7 @@ class CFootballTeam
 		int m_GoalsFor;
 		int m_GoalsAgainst;
 		int m_Points;
+		int m_LeaguePosition;
 
 	public:
 		// Constructors
@@ -24,6 +25,8 @@ class CFootballTeam
 		int GetGoalsFor(void);
 		int GetGoalsAgainst(void);
 		int GetPoints(void);
+		int GetLeaguePosition(void);
+		void SetLeaguePosition(int position);
 		bool HasName(string searchName);
 
 		// Implementors
