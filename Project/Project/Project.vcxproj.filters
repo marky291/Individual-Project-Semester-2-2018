@@ -27,7 +27,16 @@
     <ClInclude Include="CFootballLeague.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="CFootballTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAuthentication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CUser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -44,8 +53,25 @@
     <ClCompile Include="CFootballLeague.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="CFootballTable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CAuthentication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CUser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="league.dat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="users.dat">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

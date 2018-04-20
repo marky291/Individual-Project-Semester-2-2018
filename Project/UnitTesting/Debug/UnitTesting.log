@@ -1,4 +1,5 @@
 ﻿  LeagueTesting.cpp
-c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\cfootballleague.cpp(88): warning C4018: '>': signed/unsigned mismatch
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
+stdafx.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:REF' specification
      Creating library C:\Users\Marky\OneDrive\Documents\Individual-Project-Semester-2-2018\Project\Debug\UnitTesting.lib and object C:\Users\Marky\OneDrive\Documents\Individual-Project-Semester-2-2018\Project\Debug\UnitTesting.exp
   UnitTesting.vcxproj -> C:\Users\Marky\OneDrive\Documents\Individual-Project-Semester-2-2018\Project\Debug\UnitTesting.dll

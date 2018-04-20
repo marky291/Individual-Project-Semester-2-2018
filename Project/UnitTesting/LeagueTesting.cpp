@@ -2,6 +2,9 @@
 #include "CppUnitTest.h"
 #include "../Project/CFootballTeam.cpp"
 #include "../Project/CFootballLeague.cpp"
+#include "../Project/CAuthentication.cpp"
+#include "../Project/CUser.cpp"
+#include "../Project/CDisplay.cpp"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -34,7 +37,7 @@ namespace UnitTesting
 				league.Expand(team_two); // position 2 in human form.
 				league.Expand(team_three); // position 3 in human form.
 
-				league.RemovePositionedTeam(2);
+				league.RemoveTeam("Blue Tigers");
 
 				Assert::AreEqual(2, league.GetTeamSize());
 			}
@@ -197,7 +200,7 @@ namespace UnitTesting
 				league.Expand(team_one);
 				league.Expand(team_two);
 
-				Assert::AreEqual(39, league.LowestGoalsConceeded());
+				Assert::AreEqual(39, league.MostGoalsConceeded());
 			}
 
 			TEST_METHOD(LeagueShouldReturnTeamsWithMostConceededGoals)
@@ -243,13 +246,9 @@ namespace UnitTesting
 			{
 				CFootballLeague league;
 			
-				CFootballTeam team_one("Alpha Tornadoes");
-				CFootballTeam team_two("Organized Confusion");
-				CFootballTeam team_three("The Mistletoe Wonderers");
-			
-				league.Expand(team_three);
-				league.Expand(team_one);
-				league.Expand(team_two);
+				league.Expand(CFootballTeam("The Mistletoe Wonderers"));
+				league.Expand(CFootballTeam("Alpha Tornadoes"));
+				league.Expand(CFootballTeam("Organized Confusion"));
 			
 				league.RecordScore("Alpha Tornadoes", 2, 4);
 				league.RecordScore("Organized Confusion", 4, 2);
@@ -261,15 +260,44 @@ namespace UnitTesting
 				Assert::AreEqual(0, league.GetTeam(1).GetPoints());
 			}
 
-			TEST_METHOD(LeagueCanNotAddTeamsWithSameName)
+			// TEST_METHOD(LeagueCanNotAddTeamsWithSameName)
+			// {
+			// 	CFootballLeague league;
+			// 
+			// 	CFootballTeam team_one("American Spanners");
+			// 	CFootballTeam team_two("American Spanners");
+			// 
+			// 	Assert::IsTrue(league.Expand(team_one));
+			// 	Assert::IsFalse(league.Expand(team_two));
+			// }
+
+			TEST_METHOD(UserCanBeGeneratedAndAuthenticated)
+			{
+				CAuthentication authenticate;
+
+				authenticate.StoreUser(CUser("Tom", "1234", CUser::user_type::USERTYPE_MANAGER));
+				authenticate.StoreUser(CUser("Fred", "9876", CUser::user_type::USERTYPE_MANAGER));
+				authenticate.StoreUser(CUser("Ger", "4321", CUser::user_type::USERTYPE_MANAGER));
+
+				Assert::IsTrue(authenticate.AttemptLogin("Tom", "1234"));
+			}
+
+			TEST_METHOD(TeamsCanBeRemoved)
 			{
 				CFootballLeague league;
 
-				CFootballTeam team_one("American Spanners");
-				CFootballTeam team_two("American Spanners");
+				league.Expand(CFootballTeam("The Mistletoe Wonderers", 0, 0, 0, 0));
+				league.Expand(CFootballTeam("Alpha Tornadoes", 0, 0, 0, 3));
+				league.Expand(CFootballTeam("Organized Confusion", 0, 0, 0, 0));
 
-				Assert::IsTrue(league.Expand(team_one));
-				Assert::IsFalse(league.Expand(team_two));
+				Assert::AreEqual(3, league.GetTeamSize());
+				Assert::IsTrue(league.TeamExists("Organized Confusion"));
+
+				league.RemoveTeam("Organized Confusion");
+
+				Assert::AreEqual(2, league.GetTeamSize());
+				Assert::IsFalse(league.TeamExists("Organized Confusion"));
+
 			}
 	};
 }

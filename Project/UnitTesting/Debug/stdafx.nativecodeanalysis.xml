@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo::{ctor}</FUNCTION>
+    <DECORATED>??0__LineInfo@CppUnitTestFramework@VisualStudio@Microsoft@@QAE@PB_WPBDH@Z</DECORATED>
+    <FUNCLINE>50</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo::__LineInfo' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo::{ctor}</FUNCTION>
+    <DECORATED>??0__LineInfo@CppUnitTestFramework@VisualStudio@Microsoft@@QAE@PB_WPBDH@Z</DECORATED>
+    <FUNCLINE>50</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;bool&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@_N@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PA_N@Z</DECORATED>
+    <FUNCLINE>102</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>103</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;int&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@H@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PAH@Z</DECORATED>
+    <FUNCLINE>103</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>104</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;long&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@J@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PAJ@Z</DECORATED>
+    <FUNCLINE>104</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>105</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;short&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@F@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PAF@Z</DECORATED>
+    <FUNCLINE>105</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>106</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;signed char&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@C@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PAC@Z</DECORATED>
+    <FUNCLINE>106</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>107</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;unsigned int&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@I@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PAI@Z</DECORATED>
+    <FUNCLINE>107</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>108</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;unsigned long&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@K@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PAK@Z</DECORATED>
+    <FUNCLINE>108</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>109</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;unsigned __int64&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@_K@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PA_K@Z</DECORATED>
+    <FUNCLINE>109</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>110</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;unsigned char&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@E@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PAE@Z</DECORATED>
+    <FUNCLINE>110</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>111</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;char&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@D@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PAD@Z</DECORATED>
+    <FUNCLINE>111</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>112</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;wchar_t&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@_W@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PA_W@Z</DECORATED>
+    <FUNCLINE>112</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>113</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;double&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@N@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PAN@Z</DECORATED>
+    <FUNCLINE>113</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>114</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;float&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@M@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PAM@Z</DECORATED>
+    <FUNCLINE>114</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>135</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'diff' is assigned only once, mark it as const (con.4: https://go.microsoft.com/fwlink/p/?LinkID=784969).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual</FUNCTION>
+    <DECORATED>?AreEqual@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAXNNNPB_WPBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>133</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>142</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'diff' is assigned only once, mark it as const (con.4: https://go.microsoft.com/fwlink/p/?LinkID=784969).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual</FUNCTION>
+    <DECORATED>?AreEqual@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAXMMMPB_WPBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>140</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>180</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual</FUNCTION>
+    <DECORATED>?AreEqual@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAXPB_W0_N0PBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>180</LINE>
+      <COLUMN>85</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual</FUNCTION>
+    <DECORATED>?AreEqual@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAXPB_W0_N0PBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>198</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'diff' is assigned only once, mark it as const (con.4: https://go.microsoft.com/fwlink/p/?LinkID=784969).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreNotEqual</FUNCTION>
+    <DECORATED>?AreNotEqual@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAXNNNPB_WPBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>196</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>205</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'diff' is assigned only once, mark it as const (con.4: https://go.microsoft.com/fwlink/p/?LinkID=784969).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreNotEqual</FUNCTION>
+    <DECORATED>?AreNotEqual@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAXMMMPB_WPBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>203</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>242</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreNotEqual</FUNCTION>
+    <DECORATED>?AreNotEqual@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAXPB_W0_N0PBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>240</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>242</LINE>
+      <COLUMN>89</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreNotEqual</FUNCTION>
+    <DECORATED>?AreNotEqual@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAXPB_W0_N0PBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>240</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>266</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::IsTrue</FUNCTION>
+    <DECORATED>?IsTrue@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAX_NPB_WPBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>264</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>272</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::IsFalse</FUNCTION>
+    <DECORATED>?IsFalse@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAX_NPB_WPBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>270</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>278</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::Fail</FUNCTION>
+    <DECORATED>?Fail@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAXPB_WPBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>276</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>454</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::GetAssertMessage</FUNCTION>
+    <DECORATED>?GetAssertMessage@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@CA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_NABV56@1PB_W@Z</DECORATED>
+    <FUNCLINE>450</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>455</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::GetAssertMessage</FUNCTION>
+    <DECORATED>?GetAssertMessage@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@CA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_NABV56@1PB_W@Z</DECORATED>
+    <FUNCLINE>450</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>456</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::GetAssertMessage</FUNCTION>
+    <DECORATED>?GetAssertMessage@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@CA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_NABV56@1PB_W@Z</DECORATED>
+    <FUNCLINE>450</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>457</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::GetAssertMessage</FUNCTION>
+    <DECORATED>?GetAssertMessage@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@CA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_NABV56@1PB_W@Z</DECORATED>
+    <FUNCLINE>450</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>453</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'assertMessage': No array to pointer decay (bounds.3: http://go.microsoft.com/fwlink/p/?LinkID=620415).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::GetAssertMessage</FUNCTION>
+    <DECORATED>?GetAssertMessage@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@CA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_NABV56@1PB_W@Z</DECORATED>
+    <FUNCLINE>450</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>460</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'assertMessage': No array to pointer decay (bounds.3: http://go.microsoft.com/fwlink/p/?LinkID=620415).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::GetAssertMessage</FUNCTION>
+    <DECORATED>?GetAssertMessage@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@CA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_NABV56@1PB_W@Z</DECORATED>
+    <FUNCLINE>450</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestlogger.h</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Logger::WriteMessage</FUNCTION>
+    <DECORATED>?WriteMessage@Logger@CppUnitTestFramework@VisualStudio@Microsoft@@SAXPB_W@Z</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>329</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::{ctor}</FUNCTION>
+    <DECORATED>??0TestClassImpl@CppUnitTestFramework@VisualStudio@Microsoft@@QAE@XZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>333</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::{dtor}</FUNCTION>
+    <DECORATED>??1TestClassImpl@CppUnitTestFramework@VisualStudio@Microsoft@@UAE@XZ</DECORATED>
+    <FUNCLINE>333</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>333</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl', define or delete them all (c.21: http://go.microsoft.com/fwlink/?linkid=853922).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::{dtor}</FUNCTION>
+    <DECORATED>??1TestClassImpl@CppUnitTestFramework@VisualStudio@Microsoft@@UAE@XZ</DECORATED>
+    <FUNCLINE>333</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>362</LINE>
+      <COLUMN>76</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter::{ctor}</FUNCTION>
+    <DECORATED>??0CrtHandlersSetter@TestClassImpl@CppUnitTestFramework@VisualStudio@Microsoft@@QAE@XZ</DECORATED>
+    <FUNCLINE>349</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>349</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter::oldInvalidParameterHandler' is uninitialized. Always initialize a member variable (type.6: http://go.microsoft.com/fwlink/p/?LinkID=620422).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter::{ctor}</FUNCTION>
+    <DECORATED>??0CrtHandlersSetter@TestClassImpl@CppUnitTestFramework@VisualStudio@Microsoft@@QAE@XZ</DECORATED>
+    <FUNCLINE>349</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>349</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter::oldReportMode' is uninitialized. Always initialize a member variable (type.6: http://go.microsoft.com/fwlink/p/?LinkID=620422).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter::{ctor}</FUNCTION>
+    <DECORATED>??0CrtHandlersSetter@TestClassImpl@CppUnitTestFramework@VisualStudio@Microsoft@@QAE@XZ</DECORATED>
+    <FUNCLINE>349</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>349</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter::oldReportFile' is uninitialized. Always initialize a member variable (type.6: http://go.microsoft.com/fwlink/p/?LinkID=620422).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter::{ctor}</FUNCTION>
+    <DECORATED>??0CrtHandlersSetter@TestClassImpl@CppUnitTestFramework@VisualStudio@Microsoft@@QAE@XZ</DECORATED>
+    <FUNCLINE>349</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>349</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter::{ctor}</FUNCTION>
+    <DECORATED>??0CrtHandlersSetter@TestClassImpl@CppUnitTestFramework@VisualStudio@Microsoft@@QAE@XZ</DECORATED>
+    <FUNCLINE>349</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>365</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'struct Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter', define or delete them all (c.21: http://go.microsoft.com/fwlink/?linkid=853922).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter::{dtor}</FUNCTION>
+    <DECORATED>??1CrtHandlersSetter@TestClassImpl@CppUnitTestFramework@VisualStudio@Microsoft@@QAE@XZ</DECORATED>
+    <FUNCLINE>365</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

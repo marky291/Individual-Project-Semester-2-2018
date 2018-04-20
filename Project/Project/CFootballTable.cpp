@@ -3,59 +3,98 @@
 
 using namespace std;
 
-void CFootballTable::Header(string tablename)
+/**
+ * The dynamic width based on wall width for small columns in the table.
+ * 
+ * @return integer of the character spaces column small will use.
+ */
+int CFootballTable::ColumnSmall()
+{
+	return CDisplay::LineWidth() / m_SmallColumnWidth;
+}
+
+/**
+ * The dynamic width based on wall width for large columns in the table.
+ * 
+ * @return integer of the character spaces column large will use.
+ */
+int CFootballTable::ColumnLarge()
+{
+	return 0;
+}
+
+/**
+ * Table header will generate and display the column titles and a description of what it might hold.
+ * 
+ * @param tablename the name that describes the data (category) that will be shown.
+ * 
+ * @return void.
+ */
+void CFootballTable::Heading(string tablename)
 {
 	system("cls");
 
-	LineBreak('-');
+	Linebreak('-');
+	
+	CDisplay::Message("Showing " + tablename);
 
-	std::cout << m_Indentation << setfill(' ') << setw(GetLineWidth()) << left << "Showing " + tablename << endl;
+	Linebreak('-');
 
-	LineBreak('-');
+	Padding();
 
-	std::cout << m_Indentation
-		<< setfill(' ') << setw(m_SpaceValue) << left << "#"
-		<< setfill(' ') << setw(m_SpaceName) << left << "Team"
-		<< setfill(' ') << setw(m_SpaceValue) << right << "Pl"
-		<< setfill(' ') << setw(m_SpaceValue) << right << "F"
-		<< setfill(' ') << setw(m_SpaceValue) << right << "A"
-		<< setfill(' ') << setw(m_SpaceValue) << right << "GD"
-		<< setfill(' ') << setw(m_SpaceValue) << right << "Pts"
+	std::cout
+		<< setfill(' ') << setw(CFootballTable::ColumnSmall()) << left << "#"
+		<< setfill(' ') << setw(CFootballTable::ColumnSmall()) << left << "Team"
+		<< setfill(' ') << setw(CFootballTable::ColumnSmall()) << right << "Pl"
+		<< setfill(' ') << setw(CFootballTable::ColumnSmall()) << right << "F"
+		<< setfill(' ') << setw(CFootballTable::ColumnSmall()) << right << "A"
+		<< setfill(' ') << setw(CFootballTable::ColumnSmall()) << right << "GD"
+		<< setfill(' ') << setw(CFootballTable::ColumnSmall()) << right << "Pts"
 		<< endl;
 
-	LineBreak('-');
+	Linebreak('-');
 }
 
-void CFootballTable::Footer(int resultCount)
-{
-	LineBreak('-');
-
-	std::cout << m_Indentation << setfill(' ') << setw(GetLineWidth()) << right << std::to_string(resultCount) + " Results found." << endl;
-
-	LineBreak('-');
-
-	std::cout << endl << endl << endl;
-}
-
+/**
+ * Table standing will generate and display the column data of the passed team.
+ * 
+ * @param team object of the team that will be used for display.
+ * 
+ * @return void.
+ */
 void CFootballTable::TeamStanding(CFootballTeam& team)
 {
-	std::cout << m_Indentation
-		<< setfill(' ') << setw(m_SpaceValue) << left << team.GetLeaguePosition()
-		<< setfill(' ') << setw(m_SpaceName) << left << team.GetName()
-		<< setfill(' ') << setw(m_SpaceValue) << right << team.GetGamesPlayed()
-		<< setfill(' ') << setw(m_SpaceValue) << right << team.GetGoalsFor()
-		<< setfill(' ') << setw(m_SpaceValue) << right << team.GetGoalsAgainst()
-		<< setfill(' ') << setw(m_SpaceValue) << right << team.GetGoalDifference()
-		<< setfill(' ') << setw(m_SpaceValue) << right << team.GetPoints()
+	Padding();
+
+	std::cout
+		<< setfill(' ') << setw(CFootballTable::ColumnSmall()) << left << team.GetLeaguePosition()
+		<< setfill(' ') << setw(CFootballTable::ColumnSmall()) << left << team.GetName()
+		<< setfill(' ') << setw(CFootballTable::ColumnSmall()) << right << team.GetGamesPlayed()
+		<< setfill(' ') << setw(CFootballTable::ColumnSmall()) << right << team.GetGoalsFor()
+		<< setfill(' ') << setw(CFootballTable::ColumnSmall()) << right << team.GetGoalsAgainst()
+		<< setfill(' ') << setw(CFootballTable::ColumnSmall()) << right << team.GetGoalDifference()
+		<< setfill(' ') << setw(CFootballTable::ColumnSmall()) << right << team.GetPoints()
 		<< endl;
 }
 
-void CFootballTable::LineBreak(char fillCharacters)
+/**
+ * Table Footer will generate and display the tables footer, which will show the results found.
+ * 
+ * @param resultCount the number of results that have been passed through to the table.
+ * 
+ * @return void
+ */
+void CFootballTable::Footer(int resultCount)
 {
-	std::cout << m_Indentation << setfill(fillCharacters) << setw(GetLineWidth()) << left << "" << endl;
-}
+	Linebreak('-');
 
-unsigned int CFootballTable::GetLineWidth()
-{
-	return (m_SpaceValue * 6) + (m_SpaceName * 1);
+	CDisplay::Padding();
+
+	cout << setw(CDisplay::LineWidth()) << setfill(' ') << right << std::to_string(resultCount) + " Results found.";
+
+	cout << endl;
+
+	Linebreak('-');
+
+	cout << endl;
 }

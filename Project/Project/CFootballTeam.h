@@ -30,7 +30,7 @@ class CFootballTeam
 		bool HasName(string searchName);
 
 		// Implementors
-		int GetGoalDifference();
+		int GetGoalDifference(void);
 		void DeductPoints(int num);
 		void UpdateOnResult(int goalsFor, int goalsAgainst);
 		bool IsLessThan(CFootballTeam& team);

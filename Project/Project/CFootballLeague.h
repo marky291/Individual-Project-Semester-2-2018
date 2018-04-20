@@ -3,74 +3,184 @@
 #include "CFootballTeam.h"
 #include "CFootballTable.h"
 
+/**
+ * League object will be used for management of a collection of teams.
+ * 
+ * @author Mark Hester (k00233238).
+ * @date 09/04/2018.
+ */
 class CFootballLeague
 {
 	private: 
-		// Adapt the application so that it could be used for leagues of various sizes.
-		// This supplements the required allowance of various team sizes based on user input.
-		// DEFAULT = 10. MAXIMUM IS ALLOCATED ON ARRAY MEMORY (25).
-		// int max_league_size = 10;
+		/**
+		 * Define the maximum allowed teams in the league.
+		 * This will be used for logic and memory allocation on array.
+		 */
+		int m_MaxLeagueSize = 25;
 
-		// Counter for the current size of the football team array.
-		int m_TeamSize = 0;
+		/**
+		 * Track the number of teams stored in the team array.
+		 */
+		int m_LeagueSize = 0;
 
-		// Adapt the application so that it could be used for leagues of various sizes up to a maximum of 25 teams.
-		// !! Allocate a total of 25 slots for the entire league as this is the maximum allowed value.
-		CFootballTeam m_Team[25];
+		/**
+		 * Array memory allocation for maximum data storage of teams in the league.
+		 */
+		CFootballTeam m_League[25];
 
 	public:
-		// Get the used array team size.
-		int GetTeamSize();
 
-		// Check the teamname exists in the league.
-		bool TeamExists(string name);
+		/**
+		* Get the total count of teams in the league.
+		*
+		* @return integer the count of teams in the league.
+		*/
+		int GetTeamSize(void);
 
-		// Record scoring for a team. (applies logic).
-		bool RecordScore(string teamname, int goalsFor, int goalsAgainst);
+		/**
+		 * Get the maximum count of teams the league can hold.
+		 * 
+		 * @return integer the max. count of teams the league can hold.
+		 */
+		int GetMaxLeagueSize(void);
 
-		// Remove points from a team. (applies logic).
-		bool RemovePoints(string teamname, int points);
+		/**
+		 * Remove all teams from the league table, start of season?
+		 * 
+		 * @return void
+		 */
+		void LeagueClear(void);
 
-		// Return the lowest conceeded goals by a team on the league.
-		int LowestGoalsConceeded(void);
+		/**
+		* Check if a team exists using teamname.
+		*
+		* @param teamname for name of team
+		*
+		* @return boolean of the team existance in the league
+		*/
+		bool TeamExists(const string teamname);
 
-		// Get all the teams with the lowest conceeded goals on the league.
-		// Store on the input array based on the array size.
+		/**
+		* Record a match results for a single team.
+		*
+		* @param teamname for name of team
+		* @param goalsFor the goals team has scored.
+		* @param goalsAgainst the goals conceeded by the team
+		*
+		* @return void
+		*/
+		void RecordScore(string teamname, int goalsFor, int goalsAgainst);
+
+		/**
+		* Deduct points from total team points.
+		*
+		* @param teamname for name of team.
+		* @param points that should be deducted from team.
+		*
+		* @return void
+		*/		
+		void RemovePoints(string teamname, int points);
+
+		/**
+		* Get the most conceeded goals in the league by a single team.
+		*
+		* @return the most conceeded goals in the league by a single team.
+		*/
+		int MostGoalsConceeded(void);
+
+		/**
+		* Return an array from the league of the teams with the least amount of goals conceeded.
+		*
+		* @param defenderTeams[] pass-by-reference for array of teams to be listed.
+		* @param foundTeams the array size to be captured and sent back.
+		*
+		* @return void
+		*/		
 		void GetTeamsWithBestDefence(CFootballTeam defenderTeams[], unsigned int& foundTeams);
 
-		// Get Last three teams in the league.
-		// Store on the input array based on the relegation size.
+		/**
+		* Return an array from the league with the teams facing relegation using the relegation size.
+		*
+		* @param relegationTeams pass-by-reference for array of teams to be listed.
+		* @param relegationSize the array size to be captured and sent back.
+		*
+		* @return void
+		*/		
 		void GetTeamsFacingRelegation(CFootballTeam relegationTeams[], const int relegationSize);
 
-		// Return the team with the name.
-		CFootballTeam& GetTeam(string teamname);
+		/*
+		* An accessor that allows retrieval of an element from the array.
+		*
+		* @param position of the array as an integer.
+		*
+		* @return the retrieved team from the league.
+		*/
+		CFootballTeam& GetTeam(const int position);
 
-		// Return the team from an array position.
-		CFootballTeam& GetTeam(int array_position);
+		/*
+		* An accessor that allows retrieval of an element where teamname is equal to element teamname.
+		*
+		* @param teamname the name of the team to retrieve.
+		*
+		* @return the retrieved team from the league.
+		*
+		* @exception will be thrown if team can not be retrieved.
+		*/
+		CFootballTeam& GetTeam(const string teamname);
 
-		// Return the team from an array position.
-		void SetTeam(int position, CFootballTeam& team);
+		/**
+		 * Return the integer position where the team sits on the array.
+		 */
+		int GetArrayPosition(CFootballTeam& team);
 
-		// Add a new team to the league
-		// This will increment the league size and add a new value.
-		// @note: new teams joining a league <https://en.wikipedia.org/wiki/Expansion_team>
+		/*
+		* An accessor that allows the setting of an element in the league array.
+		*
+		* @param position of the array as an integer.
+		* @param team object that should be stored in the position.
+		*
+		* @return void
+		*/
+		void SetTeam(const int position, CFootballTeam& team);
+
+		/**
+		* Expand the league to accomadate a new team. <https://en.wikipedia.org/wiki/Expansion_team>
+		*
+		* @param team the object that will be added to the league.
+		*
+		* @return boolean of condition of league addition.
+		*/
 		bool Expand(CFootballTeam team);
 
-		// Remove a team from the league based on their array position number.
-		// Usefull for menu with text-based table display with number input.
-		void RemovePositionedTeam(const unsigned int position);
+		/**
+		* Accessor that allows a team to be removed from the league array.
+		*
+		* @param teamname the name of the team to be removed.
+		*
+		* @return void
+		*/
+		void RemoveTeam(string teamname);
 
-		// Team sorting method based on points.
-		// Could be abstracted better, but this will do for the project.
-		void UpdateTeamPositions(void);
+		/**
+		* Update the team positions in the league, based on the conditional requirements of the model.
+		* This will assign each team a league position and use bubble sort to sort and order.
+		*
+		* @return void
+		*/
+		void SyncLeagueTable(void);
 
-		// Place a single team into the league, using the sorting
-		// algorithem, this is a more direct approach to a single
-		// object.
-		// void SortTeamIntoLeague(CFootballTeam& team);
+		/**
+		 * The data inside the league will be saved to league.dat allowing persistant data.
+		 * 
+		 * @return boolean condition of the writing to league.dat
+		 */
+		bool SaveLeagueData(string fileLocation);
 
-		// Update the teams position in the league.
-		// also referred to as a team position.
-		// void UpdateTeamLeaguePositions(void);
+		/**
+		 * The data inside the league.dat file will be loaded into the league class.
+		 * 
+		 * @return boolean condition of the loading of league.dat
+		 */
+		bool LoadLeagueData(string fileLocation);
 };
 

@@ -1,23 +1,24 @@
 #pragma once
 
+#include "CDisplay.h"
 #include "CFootballTeam.h"
 
 using namespace std;
 
-class CFootballTable
+class CFootballTable : public CDisplay
 {
-	private:
-	const unsigned int m_SpaceName = 25;
-	const unsigned int m_SpaceValue = 7;
-	const std::string m_Indentation = "\t\t\t";
 
-	// Allows dynamic width changes.
-	unsigned int GetLineWidth();
+	// Quick maths.
+		static const int m_SmallColumnWidth = 7;
+		static const int m_LargeColumnsWidth = 0;
+
+	private:
+		static int ColumnSmall();
+		static int ColumnLarge();
 
 	public:
-		void Header(string tablename);
-		void Footer(int resultCount);
-		void TeamStanding(CFootballTeam& team);
-		void LineBreak(char fillCharacters);
+		static void Heading(string tablename);
+		static void Footer(int resultCount);
+		static void TeamStanding(CFootballTeam& team);
 
 };

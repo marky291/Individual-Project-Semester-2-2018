@@ -1,0 +1,1158 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo::{ctor}</FUNCTION>
+    <DECORATED>??0__LineInfo@CppUnitTestFramework@VisualStudio@Microsoft@@QAE@PB_WPBDH@Z</DECORATED>
+    <FUNCLINE>50</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo::__LineInfo' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo::{ctor}</FUNCTION>
+    <DECORATED>??0__LineInfo@CppUnitTestFramework@VisualStudio@Microsoft@@QAE@PB_WPBDH@Z</DECORATED>
+    <FUNCLINE>50</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;bool&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@_N@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PA_N@Z</DECORATED>
+    <FUNCLINE>102</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>103</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;int&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@H@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PAH@Z</DECORATED>
+    <FUNCLINE>103</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>104</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;long&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@J@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PAJ@Z</DECORATED>
+    <FUNCLINE>104</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>105</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;short&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@F@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PAF@Z</DECORATED>
+    <FUNCLINE>105</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>106</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;signed char&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@C@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PAC@Z</DECORATED>
+    <FUNCLINE>106</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>107</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;unsigned int&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@I@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PAI@Z</DECORATED>
+    <FUNCLINE>107</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>108</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;unsigned long&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@K@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PAK@Z</DECORATED>
+    <FUNCLINE>108</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>109</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;unsigned __int64&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@_K@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PA_K@Z</DECORATED>
+    <FUNCLINE>109</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>110</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;unsigned char&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@E@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PAE@Z</DECORATED>
+    <FUNCLINE>110</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>111</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;char&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@D@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PAD@Z</DECORATED>
+    <FUNCLINE>111</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>112</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;wchar_t&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@_W@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PA_W@Z</DECORATED>
+    <FUNCLINE>112</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>113</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;double&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@N@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PAN@Z</DECORATED>
+    <FUNCLINE>113</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>114</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 't' for function 'Microsoft::VisualStudio::CppUnitTestFramework::ToString&lt;float&gt;' can be marked as a pointer to const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::ToString</FUNCTION>
+    <DECORATED>??$ToString@M@CppUnitTestFramework@VisualStudio@Microsoft@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PAM@Z</DECORATED>
+    <FUNCLINE>114</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>135</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'diff' is assigned only once, mark it as const (con.4: https://go.microsoft.com/fwlink/p/?LinkID=784969).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual</FUNCTION>
+    <DECORATED>?AreEqual@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAXNNNPB_WPBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>133</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>142</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'diff' is assigned only once, mark it as const (con.4: https://go.microsoft.com/fwlink/p/?LinkID=784969).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual</FUNCTION>
+    <DECORATED>?AreEqual@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAXMMMPB_WPBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>140</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>180</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual</FUNCTION>
+    <DECORATED>?AreEqual@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAXPB_W0_N0PBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>180</LINE>
+      <COLUMN>85</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual</FUNCTION>
+    <DECORATED>?AreEqual@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAXPB_W0_N0PBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>198</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'diff' is assigned only once, mark it as const (con.4: https://go.microsoft.com/fwlink/p/?LinkID=784969).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreNotEqual</FUNCTION>
+    <DECORATED>?AreNotEqual@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAXNNNPB_WPBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>196</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>205</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'diff' is assigned only once, mark it as const (con.4: https://go.microsoft.com/fwlink/p/?LinkID=784969).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreNotEqual</FUNCTION>
+    <DECORATED>?AreNotEqual@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAXMMMPB_WPBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>203</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>242</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreNotEqual</FUNCTION>
+    <DECORATED>?AreNotEqual@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAXPB_W0_N0PBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>240</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>242</LINE>
+      <COLUMN>89</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreNotEqual</FUNCTION>
+    <DECORATED>?AreNotEqual@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAXPB_W0_N0PBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>240</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>266</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::IsTrue</FUNCTION>
+    <DECORATED>?IsTrue@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAX_NPB_WPBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>264</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>272</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::IsFalse</FUNCTION>
+    <DECORATED>?IsFalse@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAX_NPB_WPBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>270</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>278</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::Fail</FUNCTION>
+    <DECORATED>?Fail@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@SAXPB_WPBU__LineInfo@234@@Z</DECORATED>
+    <FUNCLINE>276</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>454</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::GetAssertMessage</FUNCTION>
+    <DECORATED>?GetAssertMessage@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@CA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_NABV56@1PB_W@Z</DECORATED>
+    <FUNCLINE>450</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>455</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::GetAssertMessage</FUNCTION>
+    <DECORATED>?GetAssertMessage@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@CA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_NABV56@1PB_W@Z</DECORATED>
+    <FUNCLINE>450</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>456</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::GetAssertMessage</FUNCTION>
+    <DECORATED>?GetAssertMessage@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@CA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_NABV56@1PB_W@Z</DECORATED>
+    <FUNCLINE>450</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>457</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::GetAssertMessage</FUNCTION>
+    <DECORATED>?GetAssertMessage@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@CA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_NABV56@1PB_W@Z</DECORATED>
+    <FUNCLINE>450</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>453</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'assertMessage': No array to pointer decay (bounds.3: http://go.microsoft.com/fwlink/p/?LinkID=620415).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::GetAssertMessage</FUNCTION>
+    <DECORATED>?GetAssertMessage@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@CA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_NABV56@1PB_W@Z</DECORATED>
+    <FUNCLINE>450</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestassert.h</FILENAME>
+      <LINE>460</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'assertMessage': No array to pointer decay (bounds.3: http://go.microsoft.com/fwlink/p/?LinkID=620415).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Assert::GetAssertMessage</FUNCTION>
+    <DECORATED>?GetAssertMessage@Assert@CppUnitTestFramework@VisualStudio@Microsoft@@CA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_NABV56@1PB_W@Z</DECORATED>
+    <FUNCLINE>450</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittestlogger.h</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::Logger::WriteMessage</FUNCTION>
+    <DECORATED>?WriteMessage@Logger@CppUnitTestFramework@VisualStudio@Microsoft@@SAXPB_W@Z</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>329</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::{ctor}</FUNCTION>
+    <DECORATED>??0TestClassImpl@CppUnitTestFramework@VisualStudio@Microsoft@@QAE@XZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>333</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::{dtor}</FUNCTION>
+    <DECORATED>??1TestClassImpl@CppUnitTestFramework@VisualStudio@Microsoft@@UAE@XZ</DECORATED>
+    <FUNCLINE>333</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>333</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl', define or delete them all (c.21: http://go.microsoft.com/fwlink/?linkid=853922).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::{dtor}</FUNCTION>
+    <DECORATED>??1TestClassImpl@CppUnitTestFramework@VisualStudio@Microsoft@@UAE@XZ</DECORATED>
+    <FUNCLINE>333</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>362</LINE>
+      <COLUMN>76</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter::{ctor}</FUNCTION>
+    <DECORATED>??0CrtHandlersSetter@TestClassImpl@CppUnitTestFramework@VisualStudio@Microsoft@@QAE@XZ</DECORATED>
+    <FUNCLINE>349</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>349</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter::oldInvalidParameterHandler' is uninitialized. Always initialize a member variable (type.6: http://go.microsoft.com/fwlink/p/?LinkID=620422).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter::{ctor}</FUNCTION>
+    <DECORATED>??0CrtHandlersSetter@TestClassImpl@CppUnitTestFramework@VisualStudio@Microsoft@@QAE@XZ</DECORATED>
+    <FUNCLINE>349</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>349</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter::{ctor}</FUNCTION>
+    <DECORATED>??0CrtHandlersSetter@TestClassImpl@CppUnitTestFramework@VisualStudio@Microsoft@@QAE@XZ</DECORATED>
+    <FUNCLINE>349</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>365</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'struct Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter', define or delete them all (c.21: http://go.microsoft.com/fwlink/?linkid=853922).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter::{dtor}</FUNCTION>
+    <DECORATED>??1CrtHandlersSetter@TestClassImpl@CppUnitTestFramework@VisualStudio@Microsoft@@QAE@XZ</DECORATED>
+    <FUNCLINE>365</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballteam.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>CFootballTeam::{ctor}</FUNCTION>
+    <DECORATED>??0CFootballTeam@@QAE@XZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballteam.cpp</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'CFootballTeam::GetGamesPlayed' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>CFootballTeam::GetGamesPlayed</FUNCTION>
+    <DECORATED>?GetGamesPlayed@CFootballTeam@@QAEHXZ</DECORATED>
+    <FUNCLINE>63</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballteam.cpp</FILENAME>
+      <LINE>71</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'CFootballTeam::GetGoalsFor' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>CFootballTeam::GetGoalsFor</FUNCTION>
+    <DECORATED>?GetGoalsFor@CFootballTeam@@QAEHXZ</DECORATED>
+    <FUNCLINE>71</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballteam.cpp</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'CFootballTeam::GetGoalsAgainst' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>CFootballTeam::GetGoalsAgainst</FUNCTION>
+    <DECORATED>?GetGoalsAgainst@CFootballTeam@@QAEHXZ</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballteam.cpp</FILENAME>
+      <LINE>87</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'CFootballTeam::GetPoints' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>CFootballTeam::GetPoints</FUNCTION>
+    <DECORATED>?GetPoints@CFootballTeam@@QAEHXZ</DECORATED>
+    <FUNCLINE>87</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballteam.cpp</FILENAME>
+      <LINE>95</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'CFootballTeam::GetLeaguePosition' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>CFootballTeam::GetLeaguePosition</FUNCTION>
+    <DECORATED>?GetLeaguePosition@CFootballTeam@@QAEHXZ</DECORATED>
+    <FUNCLINE>95</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballteam.cpp</FILENAME>
+      <LINE>105</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'CFootballTeam::SetLeaguePosition' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>CFootballTeam::SetLeaguePosition</FUNCTION>
+    <DECORATED>?SetLeaguePosition@CFootballTeam@@QAEXH@Z</DECORATED>
+    <FUNCLINE>105</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballteam.cpp</FILENAME>
+      <LINE>117</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'CFootballTeam::HasName' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>CFootballTeam::HasName</FUNCTION>
+    <DECORATED>?HasName@CFootballTeam@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>117</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballteam.cpp</FILENAME>
+      <LINE>127</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'CFootballTeam::GetGoalDifference' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>CFootballTeam::GetGoalDifference</FUNCTION>
+    <DECORATED>?GetGoalDifference@CFootballTeam@@QAEHXZ</DECORATED>
+    <FUNCLINE>127</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballteam.cpp</FILENAME>
+      <LINE>139</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'CFootballTeam::DeductPoints' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>CFootballTeam::DeductPoints</FUNCTION>
+    <DECORATED>?DeductPoints@CFootballTeam@@QAEXH@Z</DECORATED>
+    <FUNCLINE>139</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballteam.cpp</FILENAME>
+      <LINE>152</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'CFootballTeam::UpdateOnResult' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>CFootballTeam::UpdateOnResult</FUNCTION>
+    <DECORATED>?UpdateOnResult@CFootballTeam@@QAEXHH@Z</DECORATED>
+    <FUNCLINE>152</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballleague.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'CFootballLeague::GetTeamSize' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>CFootballLeague::GetTeamSize</FUNCTION>
+    <DECORATED>?GetTeamSize@CFootballLeague@@QAEHXZ</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballleague.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'CFootballLeague::GetMaxLeagueSize' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>CFootballLeague::GetMaxLeagueSize</FUNCTION>
+    <DECORATED>?GetMaxLeagueSize@CFootballLeague@@QAEHXZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballleague.cpp</FILENAME>
+      <LINE>57</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414).</DESCRIPTION>
+    <FUNCTION>CFootballLeague::TeamExists</FUNCTION>
+    <DECORATED>?TeamExists@CFootballLeague@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballleague.cpp</FILENAME>
+      <LINE>105</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26460</DEFECTCODE>
+    <DESCRIPTION>The reference argument 'team' for function 'CFootballLeague::SetTeam' can be marked as const (con.3: https://go.microsoft.com/fwlink/p/?LinkID=786684).</DESCRIPTION>
+    <FUNCTION>CFootballLeague::SetTeam</FUNCTION>
+    <DECORATED>?SetTeam@CFootballLeague@@QAEXHAAVCFootballTeam@@@Z</DECORATED>
+    <FUNCLINE>105</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballleague.cpp</FILENAME>
+      <LINE>121</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414).</DESCRIPTION>
+    <FUNCTION>CFootballLeague::GetTeam</FUNCTION>
+    <DECORATED>?GetTeam@CFootballLeague@@QAEAAVCFootballTeam@@H@Z</DECORATED>
+    <FUNCLINE>117</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballleague.cpp</FILENAME>
+      <LINE>142</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414).</DESCRIPTION>
+    <FUNCTION>CFootballLeague::GetTeam</FUNCTION>
+    <DECORATED>?GetTeam@CFootballLeague@@QAEAAVCFootballTeam@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>138</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballleague.cpp</FILENAME>
+      <LINE>162</LINE>
+      <COLUMN>56</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414).</DESCRIPTION>
+    <FUNCTION>CFootballLeague::MostGoalsConceeded</FUNCTION>
+    <DECORATED>?MostGoalsConceeded@CFootballLeague@@QAEHXZ</DECORATED>
+    <FUNCLINE>156</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballleague.cpp</FILENAME>
+      <LINE>164</LINE>
+      <COLUMN>53</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414).</DESCRIPTION>
+    <FUNCTION>CFootballLeague::MostGoalsConceeded</FUNCTION>
+    <DECORATED>?MostGoalsConceeded@CFootballLeague@@QAEHXZ</DECORATED>
+    <FUNCLINE>156</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballleague.cpp</FILENAME>
+      <LINE>179</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'defenderTeams' is never tested for nullness, it can be marked as not_null (f.23: http://go.microsoft.com/fwlink/?linkid=853921).</DESCRIPTION>
+    <FUNCTION>CFootballLeague::GetTeamsWithBestDefence</FUNCTION>
+    <DECORATED>?GetTeamsWithBestDefence@CFootballLeague@@QAEXQAVCFootballTeam@@AAI@Z</DECORATED>
+    <FUNCLINE>179</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballleague.cpp</FILENAME>
+      <LINE>185</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414).</DESCRIPTION>
+    <FUNCTION>CFootballLeague::GetTeamsWithBestDefence</FUNCTION>
+    <DECORATED>?GetTeamsWithBestDefence@CFootballLeague@@QAEXQAVCFootballTeam@@AAI@Z</DECORATED>
+    <FUNCLINE>179</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballleague.cpp</FILENAME>
+      <LINE>181</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'lowest_goals' is assigned only once, mark it as const (con.4: https://go.microsoft.com/fwlink/p/?LinkID=784969).</DESCRIPTION>
+    <FUNCTION>CFootballLeague::GetTeamsWithBestDefence</FUNCTION>
+    <DECORATED>?GetTeamsWithBestDefence@CFootballLeague@@QAEXQAVCFootballTeam@@AAI@Z</DECORATED>
+    <FUNCLINE>179</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballleague.cpp</FILENAME>
+      <LINE>200</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'relegationTeams' is never tested for nullness, it can be marked as not_null (f.23: http://go.microsoft.com/fwlink/?linkid=853921).</DESCRIPTION>
+    <FUNCTION>CFootballLeague::GetTeamsFacingRelegation</FUNCTION>
+    <DECORATED>?GetTeamsFacingRelegation@CFootballLeague@@QAEXQAVCFootballTeam@@H@Z</DECORATED>
+    <FUNCLINE>200</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballleague.cpp</FILENAME>
+      <LINE>249</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414).</DESCRIPTION>
+    <FUNCTION>CFootballLeague::RemoveTeam</FUNCTION>
+    <DECORATED>?RemoveTeam@CFootballLeague@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>240</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cfootballleague.cpp</FILENAME>
+      <LINE>269</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84: http://go.microsoft.com/fwlink/?linkid=862923).</DESCRIPTION>
+    <FUNCTION>CFootballLeague::RemoveTeam</FUNCTION>
+    <DECORATED>?RemoveTeam@CFootballLeague@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>240</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cauthentication.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>CAuthentication::{ctor}</FUNCTION>
+    <DECORATED>??0CAuthentication@@QAE@XZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cauthentication.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'CAuthentication::GetLoginAttemptCount' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>CAuthentication::GetLoginAttemptCount</FUNCTION>
+    <DECORATED>?GetLoginAttemptCount@CAuthentication@@QAEHXZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cauthentication.cpp</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414).</DESCRIPTION>
+    <FUNCTION>CAuthentication::AttemptLogin</FUNCTION>
+    <DECORATED>?AttemptLogin@CAuthentication@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cauthentication.cpp</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414).</DESCRIPTION>
+    <FUNCTION>CAuthentication::AttemptLogin</FUNCTION>
+    <DECORATED>?AttemptLogin@CAuthentication@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cauthentication.cpp</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84: http://go.microsoft.com/fwlink/?linkid=862923).</DESCRIPTION>
+    <FUNCTION>CAuthentication::InitiateUsersFromFile</FUNCTION>
+    <DECORATED>?InitiateUsersFromFile@CAuthentication@@AAEXXZ</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cauthentication.cpp</FILENAME>
+      <LINE>87</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'permission_type' is assigned only once, mark it as const (con.4: https://go.microsoft.com/fwlink/p/?LinkID=784969).</DESCRIPTION>
+    <FUNCTION>CAuthentication::InitiateUsersFromFile</FUNCTION>
+    <DECORATED>?InitiateUsersFromFile@CAuthentication@@AAEXXZ</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cuser.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>CUser::{ctor}</FUNCTION>
+    <DECORATED>??0CUser@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cuser.cpp</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'CUser::HasUsername' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>CUser::HasUsername</FUNCTION>
+    <DECORATED>?HasUsername@CUser@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>23</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cuser.cpp</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'CUser::HasPassword' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>CUser::HasPassword</FUNCTION>
+    <DECORATED>?HasPassword@CUser@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>28</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cuser.cpp</FILENAME>
+      <LINE>40</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'CUser::HasPermission' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>CUser::HasPermission</FUNCTION>
+    <DECORATED>?HasPermission@CUser@@QAE_NW4user_type@1@@Z</DECORATED>
+    <FUNCLINE>40</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\project\</FILEPATH>
+      <FILENAME>cdisplay.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'CDisplay::LineWidth' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>CDisplay::LineWidth</FUNCTION>
+    <DECORATED>?LineWidth@CDisplay@@KAHXZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\unittesting\</FILEPATH>
+      <FILENAME>leaguetesting.cpp</FILENAME>
+      <LINE>186</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'relegation_teams': No array to pointer decay (bounds.3: http://go.microsoft.com/fwlink/p/?LinkID=620415).</DESCRIPTION>
+    <FUNCTION>UnitTesting::UnitTest1::LeagueShouldReturnTeamsFacingRelegation</FUNCTION>
+    <DECORATED>?LeagueShouldReturnTeamsFacingRelegation@UnitTest1@UnitTesting@@QAEXXZ</DECORATED>
+    <FUNCLINE>171</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\marky\onedrive\documents\individual-project-semester-2-2018\project\unittesting\</FILEPATH>
+      <FILENAME>leaguetesting.cpp</FILENAME>
+      <LINE>220</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'teams_lowest_conceeded_goals': No array to pointer decay (bounds.3: http://go.microsoft.com/fwlink/p/?LinkID=620415).</DESCRIPTION>
+    <FUNCTION>UnitTesting::UnitTest1::LeagueShouldReturnTeamsWithMostConceededGoals</FUNCTION>
+    <DECORATED>?LeagueShouldReturnTeamsWithMostConceededGoals@UnitTest1@UnitTesting@@QAEXXZ</DECORATED>
+    <FUNCLINE>206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>488</LINE>
+      <COLUMN>114</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Microsoft::VisualStudio::CppUnitTestFramework::TestClass&lt;UnitTesting::UnitTest1&gt;::__GetTestVersion' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClass&lt;UnitTesting::UnitTest1&gt;::__GetTestVersion</FUNCTION>
+    <DECORATED>?__GetTestVersion@?$TestClass@VUnitTest1@UnitTesting@@@CppUnitTestFramework@VisualStudio@Microsoft@@SGPBUTestDataVersion@234@XZ</DECORATED>
+    <FUNCLINE>488</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>482</LINE>
+      <COLUMN>111</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClass&lt;UnitTesting::UnitTest1&gt;::__GetTestClassInfo</FUNCTION>
+    <DECORATED>?__GetTestClassInfo@?$TestClass@VUnitTest1@UnitTesting@@@CppUnitTestFramework@VisualStudio@Microsoft@@SGPBUTestClassInfo@234@XZ</DECORATED>
+    <FUNCLINE>479</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>482</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1: http://go.microsoft.com/fwlink/p/?LinkID=620417).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClass&lt;UnitTesting::UnitTest1&gt;::__GetTestClassInfo</FUNCTION>
+    <DECORATED>?__GetTestClassInfo@?$TestClass@VUnitTest1@UnitTesting@@@CppUnitTestFramework@VisualStudio@Microsoft@@SGPBUTestClassInfo@234@XZ</DECORATED>
+    <FUNCLINE>479</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>479</LINE>
+      <COLUMN>112</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Microsoft::VisualStudio::CppUnitTestFramework::TestClass&lt;UnitTesting::UnitTest1&gt;::__GetTestClassInfo' can be declared 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClass&lt;UnitTesting::UnitTest1&gt;::__GetTestClassInfo</FUNCTION>
+    <DECORATED>?__GetTestClassInfo@?$TestClass@VUnitTest1@UnitTesting@@@CppUnitTestFramework@VisualStudio@Microsoft@@SGPBUTestClassInfo@234@XZ</DECORATED>
+    <FUNCLINE>479</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>473</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'method2' is never tested for nullness, it can be marked as not_null (f.23: http://go.microsoft.com/fwlink/?linkid=853921).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClass&lt;UnitTesting::UnitTest1&gt;::__Invoke</FUNCTION>
+    <DECORATED>?__Invoke@?$TestClass@VUnitTest1@UnitTesting@@@CppUnitTestFramework@VisualStudio@Microsoft@@UAEXP8TestClassImpl@234@AEXXZ@Z</DECORATED>
+    <FUNCLINE>470</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>476</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26466</DEFECTCODE>
+    <DESCRIPTION>Don't use static_cast downcasts. A cast from a polymorphic type should use dynamic_cast (type.2: http://go.microsoft.com/fwlink/p/?LinkID=620418).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClass&lt;UnitTesting::UnitTest1&gt;::__Invoke</FUNCTION>
+    <DECORATED>?__Invoke@?$TestClass@VUnitTest1@UnitTesting@@@CppUnitTestFramework@VisualStudio@Microsoft@@UAEXP8TestClassImpl@234@AEXXZ@Z</DECORATED>
+    <FUNCLINE>470</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>470</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26433</DEFECTCODE>
+    <DESCRIPTION>Function 'Microsoft::VisualStudio::CppUnitTestFramework::TestClass&lt;UnitTesting::UnitTest1&gt;::__Invoke' should be marked with 'override' (c.128: http://go.microsoft.com/fwlink/?linkid=853923).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClass&lt;UnitTesting::UnitTest1&gt;::__Invoke</FUNCTION>
+    <DECORATED>?__Invoke@?$TestClass@VUnitTest1@UnitTesting@@@CppUnitTestFramework@VisualStudio@Microsoft@@UAEXP8TestClassImpl@234@AEXXZ@Z</DECORATED>
+    <FUNCLINE>470</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>473</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'method2' is assigned only once, mark it as const (con.4: https://go.microsoft.com/fwlink/p/?LinkID=784969).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClass&lt;UnitTesting::UnitTest1&gt;::__Invoke</FUNCTION>
+    <DECORATED>?__Invoke@?$TestClass@VUnitTest1@UnitTesting@@@CppUnitTestFramework@VisualStudio@Microsoft@@UAEXP8TestClassImpl@234@AEXXZ@Z</DECORATED>
+    <FUNCLINE>470</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>463</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26443</DEFECTCODE>
+    <DESCRIPTION>Overriding destructor should not use explicit 'override' or 'virtual' specifiers (c.128: http://go.microsoft.com/fwlink/?linkid=853923).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClass&lt;UnitTesting::UnitTest1&gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$TestClass@VUnitTest1@UnitTesting@@@CppUnitTestFramework@VisualStudio@Microsoft@@UAE@XZ</DECORATED>
+    <FUNCLINE>463</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>463</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6: http://go.microsoft.com/fwlink/?linkid=853927).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClass&lt;UnitTesting::UnitTest1&gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$TestClass@VUnitTest1@UnitTesting@@@CppUnitTestFramework@VisualStudio@Microsoft@@UAE@XZ</DECORATED>
+    <FUNCLINE>463</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>463</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Microsoft::VisualStudio::CppUnitTestFramework::TestClass&lt;class UnitTesting::UnitTest1&gt;', define or delete them all (c.21: http://go.microsoft.com/fwlink/?linkid=853922).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClass&lt;UnitTesting::UnitTest1&gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$TestClass@VUnitTest1@UnitTesting@@@CppUnitTestFramework@VisualStudio@Microsoft@@UAE@XZ</DECORATED>
+    <FUNCLINE>463</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
